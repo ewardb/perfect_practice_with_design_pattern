@@ -4,6 +4,12 @@ package chain_of_responsibility;
  * Created by wangqiang26 on 2017/8/19.
  */
 public class DeptLeader extends Handler {
+
+    /**
+     * fafewrqewrvrerf
+     * @param opr
+     * @param handPrice
+     */
     @Override
     public void handler(String opr, double handPrice) {
         if(handPrice >= 500 && handPrice < 1000){
